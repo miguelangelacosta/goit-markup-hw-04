@@ -57,6 +57,11 @@ ul{
   gap: 10px;
   padding: 0px;
  }
+ .imgennn{
+
+background: #2196F3;
+
+ }
 .page-header{
  
   display: flex;
@@ -187,32 +192,45 @@ text-transform: uppercase;
   line-height: 1.8;
   color: rgba(255, 255, 255, 1);
 }
+.icoms{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 90px;
 
+}
 
 .icon {
-  margin-left: 12px;
-  margin-right: 12px;
-  border: 2px dashed #2a2a2a;
-  border-radius: 8px;
-  fill: #2a2a2a;
+  
+ 
+
+padding-bottom: 0%;
+
+  
+  background: #F5F4FA;
+  border-radius: 4px;
+  gap: 30px;
+
+
+}
+.im{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+right: 3.35%;
+
+bottom: 0%;
+padding-bottom: 40px;
+
+background: #212121;
 }
 
-.icon:hover {
 
 
 
 
-
-
-
-
-
-
-
-
-
-  fill: #03a9f4;
-}
 
 
 
@@ -328,6 +346,35 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
 border-radius: 0px 0px 4px 4px;
 
 }
+
+.iconnnn{
+  display: flex;
+  justify-content: center;
+  
+  width: 206px;
+height: 44px;
+left: 247px;
+ top: 2139px;
+ padding: 14px;
+}
+.insta{
+  left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border-radius:  50%;
+background: #2196F3;
+}
+.footer-icon{
+  display: flex;
+  justify-content: center;
+  width: 206px;
+height: 44px;
+left: 247px;
+ top: 2139px;
+ padding: 14px;
+}
 .service{
   height: 648px;
 background: #F5F4FA;
@@ -362,6 +409,21 @@ padding: 95px;
   background: rgba(47, 48, 58, 1);
   gap: 9px;
 
+
+}
+.footer-icon{
+  
+
+}
+.iconnnnn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 206px;
+height: 44px;
+left: 247px;
+ top: 2139px;
+ padding: 14px;
 }
 .footr{
   display:flex;
@@ -371,13 +433,12 @@ padding: 95px;
 
 }
 
+
 .address {
   color:  rgba(255, 255, 255, 1);
 }
 .info {
   color: rgba(255, 255, 255, 0.6);
-
-
 }
   
 /* css portafolio */
