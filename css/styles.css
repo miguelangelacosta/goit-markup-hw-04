@@ -196,16 +196,37 @@ text-transform: uppercase;
   display: flex;
   justify-content: center;
   align-items: center;
+  
   gap: 30px;
   padding: 90px;
 
-}
+} 
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+height: 81px;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
 
+}
+.box-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17px;
+}
 .icon {
-  
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 30px;
  
 
-padding-bottom: 0%;
+
+width: 270px;
+height: 120px;
 
   
   background: #F5F4FA;
@@ -214,18 +235,7 @@ padding-bottom: 0%;
 
 
 }
-.im{
-  display: flex;
-  justify-content: center;
-  align-items: center;
- 
-right: 3.35%;
 
-bottom: 0%;
-padding-bottom: 40px;
-
-background: #212121;
-}
 
 
 
@@ -236,9 +246,10 @@ background: #212121;
 
  
   .post{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   display: flex;
+    
+    
+    
     gap: 30px;
     padding: 95px;
   }
@@ -246,7 +257,7 @@ background: #212121;
    justify-content: center;
    align-items: center;
    gap: 30px;
-   text-align: center;
+
   }
 
   .service {
@@ -342,8 +353,12 @@ background: #FFFFFF;
 border: solid 1px #FFFFFF ;
 /* material shadow v1 */
 
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+.card:hover{
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
+
 
 }
 
@@ -358,13 +373,18 @@ left: 247px;
  padding: 14px;
 }
 .insta{
-  left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-border-radius:  50%;
+
+
+
+padding:20px 10px;
+
+border-radius: 100%;
 background: #2196F3;
+
 }
 .footer-icon{
   display: flex;
@@ -555,15 +575,17 @@ border-color:var(--color);
   justify-content: center ;
   align-items: center;
   
+  border: 1px solid #EEEEEE;
+  background: #FFFFFF;box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px
 
-  background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
 
 }
 .cards:hover{
-  border: 1px solid;
-border-color:  var(--color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+
+ 
 }
 .title:hover{
   text-decoration: underline;
@@ -611,6 +633,9 @@ text-decoration-color: var(--color);
  font-size: 26px;
  line-height: var(--line-height);
 width: 145px;
+ }
+ .footer-icon{
+
  }
  .footer-address {
   color: #ffffff;
