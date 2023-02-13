@@ -27,8 +27,8 @@ h1,h2,h3,h4,h5,h6 {
 
 	.link:hover{ 
   
-    text-decoration:underline ;
-    text-decoration-color: var(--color);}
+    ;
+    }
   
 
 img {
@@ -117,13 +117,6 @@ text-decoration-color: var(--color);
   margin-left: 20px;
   gap: 10px;
  }
-
-.itemmnn{
-  display: flex;
- justify-content: flex-end;
- margin-right: 30px;
- gap: 10px;
-}
 .itemm{
  list-style: none;
 }
@@ -153,14 +146,12 @@ p{
 
 .current {
  
- color: var(--color)}
-.current:hover{
- text-decoration: underline;
+ color: var(--color)
 }
 
 .box {
-  background-image: url("./image/boximage.jpg") ;
-  background-size:cover ;
+  background-image: url(/images/boximage.jpg);
+  background-size:cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -168,6 +159,7 @@ p{
  
   background: linear-gradient(rgba(47, 48, 58, 0.4)
   );
+  
 height: 600px;
 gap: 40px;
 
@@ -239,26 +231,13 @@ border-radius: 4px;
  
 
 
-width: 270px;
-height: 120px;
+  width: 270px;
+  height: 120px;
 
   
   background: #F5F4FA;
   border-radius: 4px;
-  gap: 30px;
-
-
-}
-
-
-
-
-
-
-
-
-
- 
+  gap: 30px;}
   .post{
    display: flex;
     
@@ -293,18 +272,18 @@ height: 120px;
     width: 370px;
     height: 294px;
     
-    background-image: url(img.jpg);
+    background-image: url(/images/img.jpg);
   }
   .two{
     position: relative;
     width: 370px;
     height: 294px;
     
-    background-image:url(img1.jpg)
+    background-image:url(/images/img1.jpg)
   }
   .tree{
     position: relative;
-    background-image: url(./img2.jpg);
+    background-image: url(/images/img2.jpg);
     width: 370px;
     height: 294px;
   }
@@ -368,8 +347,6 @@ h3{
  
 background: #FFFFFF;
 border: solid 1px #FFFFFF ;
-/* material shadow v1 */
-
 
 }
 .card:hover{
@@ -420,15 +397,8 @@ color: #212121;
 
 height: 36.98px;
 }
-.footer-icon{
-  display: flex;
-  justify-content: center;
-  width: 206px;
-height: 44px;
-left: 247px;
- top: 2139px;
- padding: 14px;
-}
+
+
 .service{
   height: 648px;
 background: #F5F4FA;
@@ -521,6 +491,16 @@ background-color: rgba(255, 255, 255, 0.1);
   list-style: none;
   text-decoration: none;
 }
+.items {
+  display: flex;
+  gap: 40px;
+}
+.itemmnn{
+  display: flex;
+ justify-content: flex-end;
+ margin-right: 30px;
+ gap: 10px;}
+
 .list{
   list-style: none;
  text-decoration: none;
@@ -542,36 +522,44 @@ background-color: rgba(255, 255, 255, 0.1);
 }
 
 .buttonp {
+gap: 8px;
+
+
+border-radius: 4px;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.6;
 letter-spacing: 0.03em;
 
-color: var(--brand-color);
+
 
 }
 
 .buttonp:hover{
   cursor: pointer;
-text-decoration: underline;
-text-decoration-color: var(--color); 
+
 }
 .color 
 {
+
   background-color: var(--color);
   font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 26px;
-/* identical to box height, or 162% */
-
 text-align: center;
 letter-spacing: 0.03em;
 
 color: #FFFFFF;
 
   
+}
+.p {
+  font-size: 14px;
+  line-height: 1.7;
+  color:  rgba(117, 117, 117, 1);
+
 }
 
 .color:hover{
