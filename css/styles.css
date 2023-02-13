@@ -25,10 +25,7 @@ h1,h2,h3,h4,h5,h6 {
   margin-bottom: 0;
 }
 
-	.link:hover{ 
-  
-    ;
-    }
+
   
 
 img {
@@ -52,6 +49,7 @@ ul{
   list-style: none;
   text-decoration: none;
 }
+/* html index */
 .nav .ul{
   display: flex;
   gap: 10px;
@@ -183,7 +181,7 @@ text-transform: uppercase;
 
 
 .button {
-
+   border: none;
   padding: 10px 32px;
   gap: 10px;
   
@@ -364,20 +362,16 @@ border-radius: 0px 0px 4px 4px;
 height: 44px;
 left: 247px;
  top: 2139px;
- padding: 12px;
+ padding: 10px;
+ gap: 10px;
 }
 .insta{
   display: flex;
   justify-content: center;
   align-items: center;
- 
-
-
-
-padding:20px 10px;
-
-border-radius: 100%;
+border-radius: 50px;
 background: #2196F3;
+
 
 }
 .text-icon{
@@ -443,18 +437,31 @@ padding: 95px;
   justify-content: center;
   align-items: center;
   width: 206px;
-height: 44px;
-left: 247px;
- top: 2139px;
- padding: 14px;
+
 }
-.footr{
+.containerr{
+  display: flex; align-items:center ;
+ 
+}
+.linksss{
   display:flex;
   justify-content: center;
   flex-direction: column;
+ 
   gap: 6px;
 
 }
+.webs{
+  display: flex;
+  justify-content: center;
+  gap: 9px;
+ color:var(--color);
+font-family: "Raleway";
+text-decoration: none;
+font-weight: 700;
+font-size: 26px;
+line-height: var(--line-height);
+width: 145px; }
 .foortrr{
   display:flex;
   justify-content: center;
@@ -463,6 +470,42 @@ left: 247px;
   height: 44px;
   border-radius: 50px;
 
+}
+.icon-fotr{
+display: flex;
+gap: 10px;
+align-items: center;
+
+}
+.border-ra{
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+align-items: center;
+  border-radius: 50px;
+}
+.border-radi{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+align-items: center;
+  border-radius: 50px;
+  background: #2196F3;
+}
+
+.fort-titl{
+  font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+display: flex;
+justify-content: center;
 }
 
 
@@ -477,10 +520,25 @@ left: 247px;
   justify-content: center;
   align-items: center;
 padding:20px 10px;
-border-radius: 100%;
+border-radius: 0%;
 background-color: rgba(255, 255, 255, 0.1);
 }
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* css portafolio */
 
 .link  {
@@ -522,6 +580,7 @@ background-color: rgba(255, 255, 255, 0.1);
 }
 
 .buttonp {
+  border: none;
 gap: 8px;
 
 
@@ -537,11 +596,11 @@ letter-spacing: 0.03em;
 
 .buttonp:hover{
   cursor: pointer;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 
 }
-.color 
-{
-
+.color {
+  border: none; 
   background-color: var(--color);
   font-family: 'Roboto';
 font-style: normal;
@@ -564,7 +623,7 @@ color: #FFFFFF;
 
 .color:hover{
   cursor: pointer;
-border-color:var(--color);  
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); 
 }
 
 .efect:hover{
@@ -700,23 +759,9 @@ text-decoration-color: var(--color);
   padding: 50px;
 
  }
- .web-s {
-   gap: 9px;
-  color:var(--color);
- font-family: "Raleway";
- text-decoration: none;
- font-weight: 700;
- font-size: 26px;
- line-height: var(--line-height);
-width: 145px;
- }
- .footer-icon{
-
- }
+ 
  .footer-address {
-  color: #ffffff;
-
- }
+  color: #ffffff;}
 .info-address {
   color: rgba(255, 255, 255, 0.6);
 }
