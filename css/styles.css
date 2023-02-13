@@ -159,7 +159,7 @@ p{
 }
 
 .box {
-  background-image: url("./boximage.png") ;
+  background-image: url("./image/boximage.jpg") ;
   background-size:cover ;
   display: flex;
   flex-direction: column;
@@ -293,14 +293,14 @@ height: 120px;
     width: 370px;
     height: 294px;
     
-    background-image: url(./img.jpg);
+    background-image: url(img.jpg);
   }
   .two{
     position: relative;
     width: 370px;
     height: 294px;
     
-    background-image:url(./img1.jpg)
+    background-image:url(img1.jpg)
   }
   .tree{
     position: relative;
@@ -485,6 +485,15 @@ left: 247px;
   gap: 6px;
 
 }
+.foortrr{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+
+}
 
 
 .address {
@@ -603,9 +612,9 @@ border-color:var(--color);
   justify-content: center;
   display: flex;
  
-  flex-wrap: wrap;
-   gap: 30px;
-  padding: 0px;
+  flex-wrap: wrap; 
+  gap:30px;
+  padding: 20px 24px;
   list-style: none;
 }
 
@@ -613,15 +622,44 @@ border-color:var(--color);
   background: #2F303A;
 }
 .cards{
-  padding: 0px;
+  width: 370px;
+ 
   justify-content: center ;
   align-items: center;
 
   border: 1px solid #EEEEEE;
-  background: #FFFFFF;box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px
+  background: #FFFFFF;box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px;
+  margin-left: calc(100% - 60px/3 -60px );
 
 
 
+}
+.card-colr{
+  position: absolute;
+  top: 0px;
+  height: 294px;
+  width: 370px;
+  background: rgba(33, 150, 243, 0.9);
+  padding: 63px 24px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+transform: translatey(105%);
+transition:250ms ease;
+transition-timing-function : cubic-bezier(0.4, 0, 0.2, 1) ;
+
+ 
+}
+.cards :hover .card-colr{
+  transform: translatey(0%);
+}
+.colr{
+  text-align: center;
+}
+.card-imagesss{
+  position: relative;
+  overflow: hidden;
+ 
+  width: 370px;
 }
 .cards:hover{
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
